@@ -1,0 +1,12 @@
+This repository packages the computational material accompanying
+Quotient Geometry and Persistence-Stable Metrics for Swarm Configurations
+by Mark M. Bailey, integrated manuscript revision of 3 October 2026.
+
+The original study scripts and reference outputs are preserved byte-for-byte.
+provenance.json identifies their source archive and SHA-256 hashes.
+The isolated runner, repository documentation, and CI configuration were added
+when packaging the study on 5 October 2026.
+
+No new license grant is made by this packaging. A repository-wide license
+should be selected by the rights holder before an open-source release.
+No reviewer reports, correspondence, or Rocq formalization files are included.

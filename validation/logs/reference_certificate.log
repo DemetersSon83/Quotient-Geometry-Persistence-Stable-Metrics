@@ -1,0 +1,6 @@
+n=3: exact rank 3; sigma >= 0.189946278; dot gap 0.0571428571
+n=4: exact rank 5; sigma >= 0.0255189661; dot gap 0.0412554603
+n=6: exact rank 9; sigma >= 0.0946595266; dot gap 0.00317460317
+n=8: exact rank 13; sigma >= 0.0205124042; dot gap 0.00317460317
+n=6: exact rank 9; sigma >= 2.43238173e-05; dot gap 1.98563089e-05
+Saved /workspace/scratch/1099f68a0ae4/quotient-geometry-reproducibility/outputs/validated-full/certificates/reference_certificates.json

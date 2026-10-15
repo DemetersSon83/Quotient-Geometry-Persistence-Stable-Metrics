@@ -1,0 +1,58 @@
+{
+  "source_archive": "Quotient_Geometry_Swarms_PREPRINT.zip",
+  "source_archive_sha256": "d80dc2a4babe52ccfe26526b8792dcf452ba5390cbbf8f77f85b8c397ffc456a",
+  "manuscript_revision": "Integrated manuscript, 3 October 2026",
+  "manuscript_title": "Quotient Geometry and Persistence-Stable Metrics for Swarm Configurations",
+  "manuscript_source_sha256": "a1fe324ef1a00adc4eef55c14c84e564644e00734e04c386d9f09e0a1d16dc7c",
+  "files": [
+    {
+      "path": "build_certificate_table.py",
+      "sha256": "32978a83fc44798bd164d55e215a66c9e69cdd3e036a98382f0960e54b7615fc"
+    },
+    {
+      "path": "certificate_table.tex",
+      "sha256": "ca36162b9eb57996d10cf59bafc8fe1f3a0ee9704e6ba13d5aa5184f51a6693c"
+    },
+    {
+      "path": "certificates/interval_core.py",
+      "sha256": "94855d12e257d3263e6206929f6278996d442ce2a5e93585052f767b050b223e"
+    },
+    {
+      "path": "certificates/local_certificate.py",
+      "sha256": "887f339b63d86fff28ead6aa9be557678b3361235f61fae34049695f826c32f6"
+    },
+    {
+      "path": "certificates/local_certificates.json",
+      "sha256": "95fe58d6508ea6037a6d0ad9ccfefe3d5f1671e92b547eb8e01e5f13fb295dc7"
+    },
+    {
+      "path": "certificates/printed_bounds_verification.json",
+      "sha256": "43e788bb65fbe35df22cbed3192a004da5f81a04a63e528409e91d1317173228"
+    },
+    {
+      "path": "certificates/reference_certificate.py",
+      "sha256": "1ca489dd7a3cab544acf1ade217a918e4bda47cce68037d9ddee157a69d8a97c"
+    },
+    {
+      "path": "certificates/reference_certificates.json",
+      "sha256": "33afe79e7b74ef473ea64eb883e38a65cbe1e86bfbcadba8cb1129b78d9dad72"
+    },
+    {
+      "path": "certificates/verification.json",
+      "sha256": "328f88431836ac2fc737a1709f6af597c43c363bd54361659b8ec689a6acc951"
+    },
+    {
+      "path": "certificates/verify_local.py",
+      "sha256": "729a3bf0f74e43748c4814504389cf816ce88ae73e7d380bc051f3c52092e86b"
+    },
+    {
+      "path": "proof_checks/results.json",
+      "sha256": "02ee9e78e164ead0751da3add6c8d27996d4cc01279a0d2d60c7bb1a9a986974"
+    },
+    {
+      "path": "proof_checks/universal_witness.py",
+      "sha256": "0e503f5472c9edbcdace9b59e74d5e7395b62a6744b5d67e208552a76e2b40ab"
+    }
+  ],
+  "note": "These study scripts and baseline outputs are copied byte-for-byte from the source archive. Packaging, documentation and the isolated runner were added on 5 October 2026. Rocq code and reviewer reports are excluded."
+}

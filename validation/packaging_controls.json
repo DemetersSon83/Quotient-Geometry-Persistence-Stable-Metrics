@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "optimized_parent_rejected",
+      "status": "PASS",
+      "exit_code": 2
+    },
+    {
+      "check": "inherited_optimization_does_not_disable_child_assertions",
+      "status": "PASS",
+      "mode": "verify"
+    },
+    {
+      "check": "modified_baseline_rejected",
+      "status": "PASS",
+      "exit_code": 1
+    },
+    {
+      "check": "existing_output_not_overwritten",
+      "status": "PASS",
+      "exit_code": 2
+    }
+  ]
+}

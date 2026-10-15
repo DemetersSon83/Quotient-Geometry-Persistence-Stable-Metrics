@@ -1,0 +1,47 @@
+{
+  "elementary_rational_interval_cases": 300,
+  "inverse_sqrt_derivative_exact_check": true,
+  "results": [
+    {
+      "label": "rational_n3",
+      "reference_jet_enclosure": true,
+      "temporal_derivative_hessian_crosscheck": true,
+      "final_certificate_recomputed": true,
+      "enlarged_candidate_not_certified": true,
+      "exact_total_error": "9700165880725954582284877106776386649690293193447221673583274120950210719551/19577372049560361113552392199286008068405091325476733360873812191864114118656"
+    },
+    {
+      "label": "rational_n4",
+      "reference_jet_enclosure": true,
+      "temporal_derivative_hessian_crosscheck": true,
+      "final_certificate_recomputed": true,
+      "enlarged_candidate_not_certified": true,
+      "exact_total_error": "55873588703454847236389315675949844178668729007971822109306022975827696929/112538158903644930634032526752262784663321339398204261188083763112358969344"
+    },
+    {
+      "label": "rational_n6",
+      "reference_jet_enclosure": true,
+      "temporal_derivative_hessian_crosscheck": true,
+      "final_certificate_recomputed": true,
+      "enlarged_candidate_not_certified": true,
+      "exact_total_error": "74497993789576249646956663593455206839531106985608655637202104348653394469945/149603070931422514552880238850480695441645849672156755757816875121567919505408"
+    },
+    {
+      "label": "rational_n8",
+      "reference_jet_enclosure": true,
+      "temporal_derivative_hessian_crosscheck": true,
+      "final_certificate_recomputed": true,
+      "enlarged_candidate_not_certified": true,
+      "exact_total_error": "9971982345310094591644857264499411452575563248596243520709298747411266845541/20006975238627228849151656853436623967805331392490691170177556866311739408384"
+    },
+    {
+      "label": "near_centered_n6_epsilon_1_over_10000",
+      "reference_jet_enclosure": true,
+      "temporal_derivative_hessian_crosscheck": true,
+      "final_certificate_recomputed": true,
+      "enlarged_candidate_not_certified": true,
+      "exact_total_error": "5703029668746867959058329520001382170010521076000443411315345472104987/11435795272177911156785326556408807635350029178519192868167210384752640"
+    }
+  ],
+  "scope": "Exact software cross-checks; not a proof-assistant formalization or external peer review"
+}

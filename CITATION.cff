@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using these computations."
+title: "Reproducibility code for Quotient Geometry and Persistence-Stable Metrics for Swarm Configurations"
+authors:
+  - family-names: Bailey
+    given-names: Mark M.
+version: 0.1.0
+date-released: 2026-10-05
+type: software
+preferred-citation:
+  type: unpublished
+  title: "Quotient Geometry and Persistence-Stable Metrics for Swarm Configurations"
+  authors:
+    - family-names: Bailey
+      given-names: Mark M.
+  year: 2026
+  notes: "Integrated manuscript revision, 3 October 2026."

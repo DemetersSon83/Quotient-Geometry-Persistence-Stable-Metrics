@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "started_utc": "2026-10-05T18:22:51.586264+00:00",
+  "python_version": "3.12.14",
+  "python_implementation": "CPython",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "assertions_enabled": true,
+  "preserved_study_files_verified": 12,
+  "candidate_search_regenerated": true,
+  "steps": [
+    {
+      "script": "certificates/reference_certificate.py",
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "certificates/reference_certificate.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.145684,
+      "log": "logs/reference_certificate.log"
+    },
+    {
+      "script": "certificates/local_certificate.py",
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "certificates/local_certificate.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 3.881581,
+      "log": "logs/local_certificate.log"
+    },
+    {
+      "script": "certificates/verify_local.py",
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "certificates/verify_local.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.35987,
+      "log": "logs/verify_local.log"
+    },
+    {
+      "script": "proof_checks/universal_witness.py",
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "proof_checks/universal_witness.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.110116,
+      "log": "logs/universal_witness.log"
+    },
+    {
+      "script": "build_certificate_table.py",
+      "command": [
+        "python3",
+        "-E",
+        "-B",
+        "build_certificate_table.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.024355,
+      "log": "logs/build_certificate_table.log"
+    }
+  ],
+  "comparisons": [
+    {
+      "path": "certificates/reference_certificates.json",
+      "status": "PASS",
+      "method": "exact parsed JSON comparison with documented exclusions",
+      "baseline_sha256": "33afe79e7b74ef473ea64eb883e38a65cbe1e86bfbcadba8cb1129b78d9dad72",
+      "generated_sha256": "33afe79e7b74ef473ea64eb883e38a65cbe1e86bfbcadba8cb1129b78d9dad72"
+    },
+    {
+      "path": "certificates/local_certificates.json",
+      "status": "PASS",
+      "method": "exact parsed JSON comparison with documented exclusions",
+      "baseline_sha256": "95fe58d6508ea6037a6d0ad9ccfefe3d5f1671e92b547eb8e01e5f13fb295dc7",
+      "generated_sha256": "545f9b2f8a73819f82ca2f0e6a2d9e4495f294ff6b0e3b9e90fe21cd810263cb"
+    },
+    {
+      "path": "certificates/verification.json",
+      "status": "PASS",
+      "method": "exact parsed JSON comparison with documented exclusions",
+      "baseline_sha256": "328f88431836ac2fc737a1709f6af597c43c363bd54361659b8ec689a6acc951",
+      "generated_sha256": "328f88431836ac2fc737a1709f6af597c43c363bd54361659b8ec689a6acc951"
+    },
+    {
+      "path": "proof_checks/results.json",
+      "status": "PASS",
+      "method": "exact parsed JSON comparison with documented exclusions",
+      "baseline_sha256": "02ee9e78e164ead0751da3add6c8d27996d4cc01279a0d2d60c7bb1a9a986974",
+      "generated_sha256": "02ee9e78e164ead0751da3add6c8d27996d4cc01279a0d2d60c7bb1a9a986974"
+    },
+    {
+      "path": "certificates/printed_bounds_verification.json",
+      "status": "PASS",
+      "method": "exact parsed JSON comparison with documented exclusions",
+      "baseline_sha256": "43e788bb65fbe35df22cbed3192a004da5f81a04a63e528409e91d1317173228",
+      "generated_sha256": "43e788bb65fbe35df22cbed3192a004da5f81a04a63e528409e91d1317173228"
+    },
+    {
+      "path": "certificate_table.tex",
+      "status": "PASS",
+      "method": "byte-for-byte comparison",
+      "baseline_sha256": "ca36162b9eb57996d10cf59bafc8fe1f3a0ee9704e6ba13d5aa5184f51a6693c",
+      "generated_sha256": "ca36162b9eb57996d10cf59bafc8fe1f3a0ee9704e6ba13d5aa5184f51a6693c"
+    }
+  ],
+  "comparison_exclusions": [
+    "local_certificates.json: top-level elapsed_seconds",
+    "reference_certificates.json: per-certificate display_only"
+  ],
+  "scope": "Finite exact-arithmetic manuscript computations; not formal verification of the universal theorems.",
+  "summary": {
+    "accepted_certificates": 5,
+    "reference_ranks": {
+      "rational_n3": 3,
+      "rational_n4": 5,
+      "rational_n6": 9,
+      "rational_n8": 13,
+      "near_centered_n6_epsilon_1_over_10000": 9
+    },
+    "centered_control_rank": 8,
+    "centered_control_quotient_dimension": 9,
+    "elementary_interval_cases": 300,
+    "independent_temporal_derivative_checks": 5,
+    "oversized_candidates_rejected": 5,
+    "tree_witness_cases": 20,
+    "dense_determinant_comparisons": 12,
+    "printed_table_rows": 5
+  },
+  "elapsed_seconds": 4.529657
+}

@@ -1,0 +1,20 @@
+path   n= 3 certified rank=3; block determinant nonzero
+star   n= 3 certified rank=3; block determinant nonzero
+binary n= 3 certified rank=3; block determinant nonzero
+random n= 3 certified rank=3; block determinant nonzero
+path   n= 4 certified rank=5; block determinant nonzero
+star   n= 4 certified rank=5; block determinant nonzero
+binary n= 4 certified rank=5; block determinant nonzero
+random n= 4 certified rank=5; block determinant nonzero
+path   n= 8 certified rank=13; block determinant nonzero
+star   n= 8 certified rank=13; block determinant nonzero
+binary n= 8 certified rank=13; block determinant nonzero
+random n= 8 certified rank=13; block determinant nonzero
+path   n=16 certified rank=29; block determinant nonzero
+star   n=16 certified rank=29; block determinant nonzero
+binary n=16 certified rank=29; block determinant nonzero
+random n=16 certified rank=29; block determinant nonzero
+path   n=32 certified rank=61; block determinant nonzero
+star   n=32 certified rank=61; block determinant nonzero
+binary n=32 certified rank=61; block determinant nonzero
+random n=32 certified rank=61; block determinant nonzero

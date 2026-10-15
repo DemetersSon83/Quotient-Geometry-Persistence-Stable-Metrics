@@ -1,0 +1,2 @@
+# No third-party dependencies. All computations use Python's standard library.
+# Reference environment: CPython 3.12.14. Keep assertions enabled.
