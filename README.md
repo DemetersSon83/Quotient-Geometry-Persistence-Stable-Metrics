@@ -69,7 +69,3 @@ Candidate selection is heuristic. Final acceptance uses exact rational calculati
 ## Provenance
 
 [provenance.json](provenance.json) identifies the source archive and manuscript revision and records SHA-256 hashes of the original study scripts and baseline outputs. Those files are preserved byte-for-byte. The isolated runner, documentation, and CI configuration are packaging additions.
-
-This repository contains the computational supplement. The manuscript remains the source of the proofs. Rocq sources and reviewer reports are outside this package's scope; these software checks are not proof-assistant formalization or external peer review.
-
-No public repository or archival identifier has been assigned, and no license grant has been selected. See [GitHub setup](docs/GITHUB.md) for publishing this initialized repository to a destination you control.
